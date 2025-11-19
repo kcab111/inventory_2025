@@ -21,4 +21,4 @@ jobs:
           aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
           aws-region: us-east-1
       - name: Copy website to S3
-        run: aws s3 sync . s3://inventoryapp.2025 --exclude "*" --include "index.html"
+        run: aws s3 sync s3/ s3://inventoryapp.2025 --exclude "*" --include "index.html"
