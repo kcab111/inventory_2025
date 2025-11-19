@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'main'
+      - 'dev'
     paths:
       - 'lambda/get_all_inventory_items/lambda_function.py'
 
