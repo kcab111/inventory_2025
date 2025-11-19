@@ -3,8 +3,8 @@ name: Deploy Python functions to AWS Lambda
 on:
   push:
     branches:
-      - 'main'
-      - 'dev'
+      - main
+      - dev
     paths:
       - 'lambda/get_all_inventory_items/lambda_function.py'
       - 'lambda/get_inventory_item/lambda_function.py'
