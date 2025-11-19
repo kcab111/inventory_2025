@@ -4,7 +4,7 @@ from boto3.dynamodb.conditions import Key
 from botocore.exceptions import ClientError
 from decimal import Decimal
 
-# DynamoDB setup
+# DynamoDB setup - V1
 # Initialize the DynamoDB client
 dynamodb = boto3.resource('dynamodb')
 
